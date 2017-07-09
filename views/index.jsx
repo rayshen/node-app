@@ -5,10 +5,6 @@ var React = require('react');
 var Layout = require('./layout');
 
 class Index extends React.Component {
-    constructor(props, context) {
-        super(props, context);
-    }
-
     render() {
         return (
             <Layout title={this.props.title}>
